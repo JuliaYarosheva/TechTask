@@ -1,0 +1,152 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #314453;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+header {
+    background-color: #314453;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn_holder {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.click_btn {
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    width: 125px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F25851;
+    color: #ffffff;
+    margin: 5px;
+}
+
+.click_btn:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #F25851;
+    transition: .5s color;
+}
+
+.item_container {
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.block {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.row {
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    padding: 5px;
+    margin: 5px 10px 5px;
+
+}
+
+.item-block {
+    width: 14%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-row {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+}
+
+/* TEST */
+.text-content {
+    font-size: 13px;
+    line-height: 17px;
+
+}
+
+.block-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-height: 150px;
+    max-width: 150px;
+    margin: 10px 0 10px;
+}
+
+.block-content:after {
+    content: '';
+}
+
+.row-content {
+    margin: 5px 15px 10px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    height: 150px;
+    background-color: #314453;
+    display: flex;
+    align-items: flex-end;
+}
+
+.social {
+    color: #ffffff;
+    font-size: 11px;
+    margin: 2px 5px 2px 15px;
+}
+
+
+.copyright {
+    margin: 15px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.disabled-btn {
+    background-color: grey;
+}
+
+.disabled-btn:hover {
+    background-color: grey;
+    color: #ffffff;
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+
